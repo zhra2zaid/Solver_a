@@ -6,9 +6,9 @@ namespace solver {
 
     bool isZero (double x);
     
-   // double solve(RealVariable& x);
+    //double solve(RealVariable& x);
 
-   // std::complex<double> solve(ComplexVariable& x);
+    //complex<double> solve(ComplexVariable& x);
 
     class RealVariable {
     public:
@@ -89,9 +89,8 @@ namespace solver {
     ComplexVariable& operator*(std::complex<double> x, ComplexVariable &y);
 
     ComplexVariable& operator/(std::complex<double> x, ComplexVariable &y);
-    
+   
     double solve(RealVariable& x);
     complex<double> solve(ComplexVariable& x);
-
 
 };
